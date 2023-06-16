@@ -28,7 +28,8 @@ def draw_ellipse(ax, x, y, w, h, a, color):
     ax.add_patch(
         Ellipse(
             xy=(x,y), width=w, height=h, angle=a,
-            facecolor=color, edgecolor=less_transparent_color(color)
+            facecolor=color, 
+            edgecolor='black'
         )
     )
 
